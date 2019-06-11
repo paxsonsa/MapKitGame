@@ -10,6 +10,8 @@
 		1410012522ABC89600475C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410012422ABC89600475C27 /* AppDelegate.swift */; };
 		1410012722ABC89700475C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1410012622ABC89700475C27 /* Assets.xcassets */; };
 		1410012A22ABC89700475C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1410012822ABC89700475C27 /* Main.storyboard */; };
+		1410013322AC4B8000475C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410013222AC4B8000475C27 /* ViewController.swift */; };
+		1410013522AC4FB700475C27 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410013422AC4FB700475C27 /* Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1410012922ABC89700475C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1410012B22ABC89700475C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1410012C22ABC89700475C27 /* MapKitGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapKitGame.entitlements; sourceTree = "<group>"; };
+		1410013222AC4B8000475C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1410013422AC4FB700475C27 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,11 @@
 		1410012322ABC89600475C27 /* MapKitGame */ = {
 			isa = PBXGroup;
 			children = (
+				1410013222AC4B8000475C27 /* ViewController.swift */,
 				1410012422ABC89600475C27 /* AppDelegate.swift */,
 				1410012622ABC89700475C27 /* Assets.xcassets */,
 				1410012822ABC89700475C27 /* Main.storyboard */,
+				1410013422AC4FB700475C27 /* Pin.swift */,
 				1410012B22ABC89700475C27 /* Info.plist */,
 				1410012C22ABC89700475C27 /* MapKitGame.entitlements */,
 			);
@@ -130,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1410013522AC4FB700475C27 /* Pin.swift in Sources */,
+				1410013322AC4B8000475C27 /* ViewController.swift in Sources */,
 				1410012522ABC89600475C27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
