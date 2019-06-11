@@ -23,6 +23,8 @@
 		1410012C22ABC89700475C27 /* MapKitGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapKitGame.entitlements; sourceTree = "<group>"; };
 		1410013222AC4B8000475C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1410013422AC4FB700475C27 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		1477FB8722AF8EBA0098D938 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1477FB8822AF90AF0098D938 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,8 @@
 		1410011822ABC89600475C27 = {
 			isa = PBXGroup;
 			children = (
+				1477FB8922AF90BB0098D938 /* img */,
+				1477FB8722AF8EBA0098D938 /* README.md */,
 				1410012322ABC89600475C27 /* MapKitGame */,
 				1410012222ABC89600475C27 /* Products */,
 			);
@@ -64,6 +68,14 @@
 				1410012C22ABC89700475C27 /* MapKitGame.entitlements */,
 			);
 			path = MapKitGame;
+			sourceTree = "<group>";
+		};
+		1477FB8922AF90BB0098D938 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				1477FB8822AF90AF0098D938 /* screenshot.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
